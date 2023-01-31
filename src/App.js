@@ -38,13 +38,14 @@ function App() {
       setMode('dark')
       // setmodetext('Dark Mode')
       document.body.style.backgroundColor='#042743'
-      showAlert("Dark mode has been activated","success")  
+      // document.style.color='dark'
+      showAlert("Dark mode has been activated","Success")  
     }
     else{
       setMode('light')
       // setmodetext('Light Mode')
       document.body.style.backgroundColor='white'
-      showAlert("Light mode has been activated","success")  
+      showAlert("Light mode has been activated","Success")  
     }
   }
   return (
